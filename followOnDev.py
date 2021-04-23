@@ -44,4 +44,4 @@ getResp = requests.get(dnaDevLs, headers=getHead, data=getPayload)
 
 devices = getResp.json()
 
-pprint("Devices found: {} \n" + devices)
+pprint(devices)
